@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2023-09-29T05:53:35.111Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="sHUqqhy62wSGB7q7tWki" version="21.3.7" type="device">
+  <diagram name="Page-1" id="RAHw4QgwAxE0oeS8Ub7K">
+    <mxGraphModel dx="1434" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Ready&lt;br&gt;Initial Duty = 50%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Increase Duty by 5%&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Decrease Duty by 5%&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;No Change&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-5" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Check if&lt;br&gt;Duty &amp;lt; 95%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Check if&lt;br&gt;Duty &amp;gt; 5%&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BT4Q3Gnnnb_SIdRYWgOv-1" target="BT4Q3Gnnnb_SIdRYWgOv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="364" y="230" as="sourcePoint" />
+            <mxPoint x="414" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BT4Q3Gnnnb_SIdRYWgOv-1" target="BT4Q3Gnnnb_SIdRYWgOv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BT4Q3Gnnnb_SIdRYWgOv-5" target="BT4Q3Gnnnb_SIdRYWgOv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BT4Q3Gnnnb_SIdRYWgOv-5" target="BT4Q3Gnnnb_SIdRYWgOv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BT4Q3Gnnnb_SIdRYWgOv-6" target="BT4Q3Gnnnb_SIdRYWgOv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="470" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BT4Q3Gnnnb_SIdRYWgOv-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="BT4Q3Gnnnb_SIdRYWgOv-6" target="BT4Q3Gnnnb_SIdRYWgOv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
